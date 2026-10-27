@@ -1,0 +1,19 @@
+LFSReproApp.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+  s_0857780b2b8120::t_d8588e46fac3dc 1-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "2767c88ec83208a66374ebcdb279a987fbfba239",
+  "prompts": {},
+  "sessions": {
+    "s_0857780b2b8120": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_e83e67574ffeVSue0CPYIu6SlA",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "sergio fresneda <sergiofg@ext.zara.com>"
+    }
+  }
+}
