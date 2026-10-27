@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/sergiofresneda/xcode27-lfs-dependency.git",
       "state" : {
-        "revision" : "552ed6f5b935dfae3611aa1a035d317934860116",
-        "version" : "1.0.0"
+        "revision" : "a29cb2a72cd844b63a1dfbfd2c01ca7073129666",
+        "version" : "1.0.1"
       }
     }
   ],

@@ -5,7 +5,7 @@ installed when resolving a Swift package that contains an LFS-tracked resource.
 
 The dependency is
 [`xcode27-lfs-dependency`](https://github.com/sergiofresneda/xcode27-lfs-dependency),
-pinned to `1.0.0`. That tag points to the default branch `HEAD`, keeping this
+pinned to `1.0.1`. That tag points to the default branch `HEAD`, keeping this
 case separate from the non-HEAD tag bug fixed by SwiftPM #10720.
 
 ## Requirements
@@ -58,10 +58,19 @@ error transferring "...": [0] remote missing object ...
 error: external filter '/opt/homebrew/bin/git-lfs filter-process' failed
 ```
 
-A direct clone of the same `1.0.0` tag materializes the LFS object correctly:
+Using the published `1.0.1` dependency containing `pixel.png` (an actual 995 B
+PNG), a clean Xcode 27.2 package cache fails while checking out the tag:
+
+```text
+Downloading Sources/LFSDependency/Resources/pixel.png (995 B)
+Error downloading object: Sources/LFSDependency/Resources/pixel.png (...):
+Smudge error: ... remote missing object ...
+```
+
+A direct clone of the same `1.0.1` tag materializes the LFS object correctly:
 
 ```sh
-git clone --branch 1.0.0 \
+git clone --branch 1.0.1 \
   https://github.com/sergiofresneda/xcode27-lfs-dependency.git
 ```
 

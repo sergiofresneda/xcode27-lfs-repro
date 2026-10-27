@@ -108,7 +108,7 @@
 		A00000000000000000000010 /* XCRemoteSwiftPackageReference "xcode27-lfs-dependency" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/sergiofresneda/xcode27-lfs-dependency.git";
-			requirement = { kind = exactVersion; version = 1.0.0; };
+				requirement = { kind = exactVersion; version = 1.0.1; };
 		};
 /* End XCRemoteSwiftPackageReference section */
 
