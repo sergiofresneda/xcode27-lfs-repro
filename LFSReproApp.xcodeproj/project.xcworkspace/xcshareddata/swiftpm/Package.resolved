@@ -1,0 +1,15 @@
+{
+  "originHash" : "8d6400ba2191db22d0a5fe2410c57f8b8df434192eff2f0eb721c82f5303e884",
+  "pins" : [
+    {
+      "identity" : "xcode27-lfs-dependency",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sergiofresneda/xcode27-lfs-dependency.git",
+      "state" : {
+        "revision" : "552ed6f5b935dfae3611aa1a035d317934860116",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
