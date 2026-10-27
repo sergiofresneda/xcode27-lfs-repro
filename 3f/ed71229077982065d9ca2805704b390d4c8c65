@@ -1,0 +1,18 @@
+LFSReproApp.xcodeproj/project.pbxproj
+  h_09a3a89a1abfee 111
+LFSReproApp.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+  h_09a3a89a1abfee 9-10
+README.md
+  h_09a3a89a1abfee 8,61-70,73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "3fed71229077982065d9ca2805704b390d4c8c65",
+  "prompts": {},
+  "humans": {
+    "h_09a3a89a1abfee": {
+      "author": "sergio fresneda <sergiofg@ext.zara.com>"
+    }
+  }
+}
